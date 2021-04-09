@@ -15,7 +15,7 @@ router_v1.register('tasks', views.TaskViewSet, basename='tasks')
 
 urlpatterns = [
     path('v1/token', TokenObtainPairView.as_view(), name='token_obtain'),
-    path('vq/token/refresh/', TokenRefreshView.as_view(),
+    path('v1/token/refresh/', TokenRefreshView.as_view(),
          name='token_refresh'),
     path('v1/', include(router_v1.urls)),
 ]
