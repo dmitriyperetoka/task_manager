@@ -10,7 +10,7 @@ app_name = 'api'
 
 router_v1 = DefaultRouter()
 router_v1.register('signup', views.SignUpViewSet, basename='signup')
-router_v1.register('tasks/own', views.OwnTaskViewSet, basename='tasks')
+router_v1.register('tasks/own', views.OwnTaskViewSet, basename='own_tasks')
 router_v1.register('tasks', views.TaskViewSet, basename='tasks')
 
 urlpatterns = [
