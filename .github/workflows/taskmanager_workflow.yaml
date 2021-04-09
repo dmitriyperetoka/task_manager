@@ -3,7 +3,7 @@ name: taskmanager_workflow
 on: 
   push:
     branches:
-      - master
+      - main
 
 jobs:
   tests:
