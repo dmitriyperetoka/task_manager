@@ -1,7 +1,6 @@
 ![taskmanager_workflow](https://github.com/dmitriyperetoka/task_manager/workflows/taskmanager_workflow/badge.svg)
 
 # task_manager
-Проект развёрнут на сервере http://84.201.176.23
  
 ### Примеры запросов:
 | Путь  | Метод | Данные | Описание |
